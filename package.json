@@ -1,5 +1,5 @@
 {
-  "name": "onvif",
+  "name": "domotz-onvif",
   "version": "0.6.0",
   "author": "Andrew D.Laptev <a.d.laptev@gmail.com>",
   "description": "Client to ONVIF NVT devices Profile S: cameras",
@@ -31,11 +31,16 @@
       "name": "Jeff Galbraith",
       "email": "jgalbraith@intelliviewtech.com",
       "url": "http://intelliviewtech.com"
+    },
+    {
+      "name": "Domotz Development Team",
+      "email": "dev@domotz.com",
+      "url": "https://domotz.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/agsh/onvif.git"
+    "url": "https://github.com/devDomotz/onvif"
   },
   "dependencies": {
     "xml2js": "^0.4.19"
@@ -49,7 +54,7 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": ">=6.0"
+    "node": ">=0.10"
   },
   "devDependencies": {
     "coffeescript": "^1.9.3",
